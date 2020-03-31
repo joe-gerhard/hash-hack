@@ -5,7 +5,7 @@ type PageDisplayProps = {
     theme: Theme;
 }
 
-const PageDisplay = styled('nav')(({ theme }: PageDisplayProps) => css`
+const PageDisplay = styled('main')(({ theme }: PageDisplayProps) => css`
     display: flex;
     flex-direction: column;
     align-items: center;
