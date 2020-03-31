@@ -1,9 +1,18 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import SearchPage from './pages/SearchPage';
+import InputPage from './pages/InputPage';
+import Navbar from './components/Navbar';
 
 function App() {
+
     return (
         <div>
-            This is the app
+            <Navbar />
+            <Switch>
+                <Route path="/search" component={SearchPage}/>
+                <Route path="/input" component={InputPage}/>
+            </Switch>
         </div>
     );
 }
