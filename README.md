@@ -1,6 +1,6 @@
 ## Requirements
 
-You should have git and npm installed on your local machine
+You should have git and npm installed on your local machine.
 
 ## Getting Started
 
